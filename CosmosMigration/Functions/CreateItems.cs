@@ -1,14 +1,9 @@
-using System.ComponentModel;
 using System.Diagnostics;
 using System.Net;
-using System.Net.Http.Headers;
 using CRUD.Helper;
 using CRUD.Models;
-using Microsoft.Azure.Cosmos;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
-using Microsoft.Azure.KeyVault.Models;
-using Microsoft.Azure.Management.ContainerInstance.Fluent.Models;
 using Microsoft.Extensions.Logging;
 
 namespace CRUD

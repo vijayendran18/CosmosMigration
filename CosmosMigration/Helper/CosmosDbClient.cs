@@ -40,11 +40,6 @@ namespace CRUD.Helper
                     //----------------Primary/secondary keys	
                     _cosmosClient = new CosmosClient(CosmosConfiguration.Endpoint, CosmosConfiguration.Key, cosmosClientOptions);
                     _database = _cosmosClient.CreateDatabaseIfNotExistsAsync(CosmosConfiguration.Database).Result;
-                    //_container = await _database.CreateContainerIfNotExistsAsync(new ContainerProperties()
-                    //{
-                    //    Id = CosmosConfiguration.Container,
-                    //    PartitionKeyPath = "/id"
-                    //});
 
                     if (CosmosConfiguration.ThroughPut > 0)
                     {
