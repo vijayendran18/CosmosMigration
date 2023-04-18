@@ -1,14 +1,8 @@
 using CRUD.Helper;
 using CRUD.Models;
-using Microsoft.Azure.Cosmos;
-using Microsoft.Azure.Management.Storage.Fluent.Models;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Configuration;
-using System.Net.Http;
 
 
 IConfiguration _config = null;

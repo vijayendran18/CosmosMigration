@@ -120,19 +120,4 @@ namespace CRUD.Helper
 
     }
 
-    public class ErrorResponse
-    {
-        [JsonProperty("errors")]
-        public List<Error> Errors { get; set; }
-    }
-
-    public class Error
-    {
-        [JsonProperty("index")]
-        public int Index { get; set; }
-
-        [JsonProperty("message")]
-        public string Message { get; set; }
-    }
-
 }
